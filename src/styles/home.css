@@ -1,0 +1,15 @@
+.titles{
+  font-size:1.0em;
+  line-height:1.2em;
+  height:1.2em;
+  overflow:hidden;
+}
+.title{
+    font-size:1em;
+    margin:0; padding:0;
+    animation:slide 1.0s 1.0s ease-out forwards;
+    animation-delay: 2s;
+    }
+@keyframes slide {
+    to {transform:translateY(-1.2em);}
+}
