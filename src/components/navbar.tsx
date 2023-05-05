@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function ResponsiveAppBar() {
     return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className=' z-10 self-stretch justify-self-start'>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky='top' className='self-stretch justify-self-start'>
     <Container>
       <Navbar.Brand href="#home">UACS</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
