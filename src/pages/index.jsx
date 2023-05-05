@@ -34,7 +34,8 @@ const particlesLoaded = useCallback(async (container) => {
               </div>
         </div>
       </div>
-      <div className=' bg-[#212429]'>
+      {/* All other components go here */}
+      <div className=' bg-[#212429] flex flex-col'>
         <div className='z-10 text-white'>hi</div>
         <div className='z-10 text-white'>hi</div>
       </div>
